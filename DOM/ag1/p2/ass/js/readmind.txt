@@ -1,0 +1,23 @@
+// var beatles = Array(5);
+// beatles[0] = 'john';
+// beatles[1] = 'jack';
+// beatles[2] = 'mandy';
+// beatles[3] = 'rose';
+// beatles[4] = 'jason';
+// 上则原型， 下则简化版
+var beatles = Array("john", "jack", "mandy", "rose", "jason");
+//其他用法
+//var beatles = Array(1980, 1981, 1982, 1983, 1984);    //数值不用"
+//var beatles = Array("mandy", 1980, false);            //阿布尔不用"
+var venjoy =  Array("uq", "izzue", "5cm", "wuji");
+beatles[0] = venjoy[2];
+//其他用法
+//var venjoy = Array("uq", 1948, false);
+//var beatles = Array();
+//beatles[3]
+
+//-------------关联数组
+var venjoy = Array();
+venjoy["name"] = "uq";
+venjoy["years"] = 1900;
+venjoy["living"] = false;
