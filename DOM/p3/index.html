@@ -5,6 +5,19 @@
         <title>test</title>
 </head>
 <body>
-       <p>test</p>
+        <h1>what to buy</h1>
+        <p title="a gentle reminder">Don't forget to buy this stuff.</p>
+        <ul id="purchases">
+                <li>A tin of beans</li>
+                <li>Cheese</li>
+                <li>Milk</li>
+        </ul>
+        
+        <script type="text/javascript">
+                        var test = document.getElementsByTagName("li");
+                        for (var i=0; i< test.length; i++) {
+                                alert(typeof test[i]);
+                        }
+        </script>
 </body>
 </html>
